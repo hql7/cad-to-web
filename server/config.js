@@ -23,8 +23,8 @@ var config ={
 	credentials: {
 		// Replace placeholder below by the Consumer Key and Consumer Secret you got from
 		// http://developer.autodesk.com/ for the production server
-		client_id: process.env.FORGE_CLIENT_ID || 'ilhtVzbqPckltNjmh95MhQEkXygvGvDM',
-		client_secret: process.env.FORGE_CLIENT_SECRET || 'lQOT51uqCqxfXL4L',
+		client_id: process.env.FORGE_CLIENT_ID || '',
+		client_secret: process.env.FORGE_CLIENT_SECRET || '',
 		grant_type: 'client_credentials',
 		scope: [ 'data:read', 'data:write', 'bucket:read', 'bucket:create' ]
 	},
